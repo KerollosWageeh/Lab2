@@ -163,7 +163,7 @@ class Question2Test {
 
         @AfterAll
         public static void finalise() {
-            System.out.println("Edge Coverage Testing DONE");
+            System.out.println("Edge Coverage Testing is DONE");
             test = null;
         }
     }
@@ -259,6 +259,11 @@ class Question2Test {
             test.setInput('b');
             assertEquals(test.getTime(), "2 : 2");
             assertEquals(test.getDate(), "2002 - 3 - 3");
+        }
+        @AfterAll
+        public static void finalise() {
+            System.out.println("ADUP Testing is DONE");
+            test = null;
         }
     }
 
